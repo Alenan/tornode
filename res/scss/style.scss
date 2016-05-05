@@ -1,0 +1,66 @@
+//Import Components
+@import "components/fonts";
+
+//Import Modules
+@import "modules/tools";
+@import "modules/navigation";
+@import "modules/modal";
+@import "modules/content";
+@import "modules/mission";
+@import "modules/footer";
+
+* { 
+  box-sizing: border-box; 
+  color: #333333;
+}
+
+.cf:before,
+.cf:after {
+  content:"";
+  display:table;
+}
+.cf:after {
+  clear:both;
+}
+.cf {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+body {
+  background: #f3f4f6;
+}
+
+a {
+  color: #3498DB;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.info {
+  width: 100%;
+  background: #cccccc;
+  text-align: center;
+  font-size: 1.2rem;
+
+  h2 {
+    padding: 20px 0;
+  }
+
+  a {
+    color: #333333;
+    text-decoration: none;
+
+    &:hover {
+      color: #333333;
+    }
+  }
+}

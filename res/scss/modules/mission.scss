@@ -1,0 +1,43 @@
+.mission {
+  width: 100%;
+  overflow: hidden;
+  height: 450px;
+  background-color: #7791ac;
+
+  figure {
+    max-width: 1730px;
+    margin: 0 auto;
+  }
+
+  .content {
+    position: relative;
+    top: -280px;
+    color: white;
+
+    h1 {
+      font-size: 2rem;
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: white;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    a.call-to-action {
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      text-align: center;
+      width: 240px;
+      margin: 15px auto 0 auto;
+      background: #3498DB;
+      border-radius: 10px;
+      padding: 10px 20px;
+    }
+  }
+}

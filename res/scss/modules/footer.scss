@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  background: #333333;
+  color: white;
+  padding: 10px 0;
+
+  span {
+    color: #e74c3c;
+  }
+
+  ul {
+    list-style: none;
+    float: right;
+
+    li {
+      display: inline;
+    }
+  }
+  
+  p {
+    color: white;
+    float: left;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
