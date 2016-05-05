@@ -7,22 +7,36 @@
     &.left {
       img {
         float: left;
+        margin-right: 15px;
       }
 
-      figure {
-        float: right;
-        margin-left: 10px;
+      figcaption {
+        h3 {
+          font-size: 1.2rem;
+        }
+        
+        p {
+          margin-top: 10px;
+          font-size: 1rem;
+        }
       }
     }
 
     &.right {
       img {
         float: right;
+        margin-left: 15px;
       }
 
-      figure {
-        float: left;
-        margin-right: 10px;
+      figcaption {
+        h3 {
+          font-size: 1.2rem;
+        }
+        
+        p {
+          margin-top: 10px;
+          font-size: 1rem;
+        }
       }
     }
   }
